@@ -1,0 +1,16 @@
+:root {
+  --primary: green;
+  --secondary: red;
+}
+
+h1,
+#btn1 {
+  color: var(--primary);
+  font-family: 'WindSong', cursive;
+}
+
+h2,
+#btn2 {
+  font-family: 'WindSong', cursive;
+  color: var(--secondary);
+}
