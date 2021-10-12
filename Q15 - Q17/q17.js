@@ -15,7 +15,7 @@ const obj2 = {
 const powerOfChar = 35;
 
 function getPowerfulPerson(person1, person2) {
-  return getPower(person1) > getPower(person2) ? person1 : person2;
+  return getPower(person1) > getPower(person2) ? person1.name : person2.name;
 }
 
 function getPower(person) {

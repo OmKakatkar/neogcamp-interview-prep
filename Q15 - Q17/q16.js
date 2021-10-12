@@ -19,3 +19,5 @@ function getPersonWithMorePower(obj1, obj2) {
   }
   return obj2.name;
 }
+
+console.log(getPersonWithMorePower(obj1, obj2))
